@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jbouguima.osgispringdata</groupId>
+    <artifactId>osgi-spring-data</artifactId>
+    <packaging>pom</packaging>
+    <version>2.0.0.M1</version>
+
+    <name>Bundles :: Spring-Data 2 </name>
+    <description>This project provides Spring-Data 2.0 bundles for Apache Karaf 4.1</description>
+
+    <modules>
+        <module>osgi-springdata-mongodb</module>
+        <module>osgi-springdata-commons</module>
+        <module>osgi-springdata-jpa</module>
+        <module>osgi-xmlprojector</module>
+        <module>osgi-codegen</module>
+        <module>osgi-aspectjweaver</module>
+        <module>osgi-aspectjtools</module>
+        <module>features</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+
+        <!-- Spring Data Parent -->
+        <aspectj>1.8.1</aspectj>
+        <cdi>1.0</cdi>
+        <jackson>2.8.7</jackson>
+        <jodatime>2.9.7</jodatime>
+        <querydsl>3.7.4</querydsl>
+        <spring.osgi>4.3.8</spring.osgi>
+        <spring>${spring.osgi}.RELEASE</spring>
+
+        <!-- Spring Data Commons -->
+        <springdata.commons>2.0.0.M1</springdata.commons>
+
+        <!-- Spring Data JPA -->
+        <eclipselink>2.6.2</eclipselink>
+        <hibernate>5.2.9.Final</hibernate>
+        <hsqldb1>1.8.0.10</hsqldb1>
+        <jpa>2.0.0</jpa>
+        <openjpa>2.4.1</openjpa>
+        <springdata.jpa>2.0.0.M1</springdata.jpa>
+
+        <!-- Spring Data Mongo -->
+        <cdi>1.0</cdi>
+        <commons-io>2.5</commons-io>
+        <guava>19.0</guava>
+        <jodatime>2.9.9</jodatime>
+        <jsonpath>2.2.0</jsonpath>
+        <jackson>2.8.7</jackson>
+        <querydsl>4.1.4</querydsl>
+        <reactor>3.0.6.RELEASE</reactor>
+        <rxjava>1.2.9</rxjava>
+        <rxjava-reactive-streams>1.2.1</rxjava-reactive-streams>
+        <rxjava2>2.0.8</rxjava2>
+        <spring>4.3.8.RELEASE</spring>
+        <spring-hateoas>0.23.0.RELEASE</spring-hateoas>
+        <threetenbp>1.3.3</threetenbp>
+        <validation>1.1.0.Final</validation>
+        <webbeans>1.2.8</webbeans>
+        <mongo>3.4.2</mongo>
+        <mongo.reactivestreams>1.3.0</mongo.reactivestreams>
+        <springdata.mongodb>2.0.0.M1</springdata.mongodb>
+        <export.packages>${export.package}*;version=${unpack.version}</export.packages>
+        <import.packages>*</import.packages>
+        <private.packages>!*</private.packages>
+        <symbolic.name>${pom.groupId}.${pom.artifactId}</symbolic.name>
+        <embed-dep>*;scope=compile;type=!pom;inline=true</embed-dep>
+        <unpack-bundle>false</unpack-bundle>
+    </properties>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <unpackBundle>${unpack.bundle}</unpackBundle>
+                    <instructions>
+                        <Bundle-Name>${artifactId}</Bundle-Name>
+                        <Bundle-SymbolicName>${symbolic.name}</Bundle-SymbolicName>
+                        <Bundle-Description>${pom.name}</Bundle-Description>
+                        <Import-Package>${import.packages}</Import-Package>
+                        <Private-Package>${private.packages}</Private-Package>
+                        <Include-Resource>${include.resources}</Include-Resource>
+                        <Embed-Dependency>${embed-dep}</Embed-Dependency>
+                        <_exportcontents>${export.packages}</_exportcontents>
+                    </instructions>
+                </configuration>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>alfresco-public</id>
+            <name>Alfresco Public Repository</name>
+            <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
+</project>

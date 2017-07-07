@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/features" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-aspectjtools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-aspectjweaver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-codegen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-springdata-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-springdata-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-springdata-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osgi-xmlprojector" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-aspectjtools" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-aspectjweaver" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-codegen" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-springdata-commons" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-springdata-jpa" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-springdata-mongodb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi-xmlprojector" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

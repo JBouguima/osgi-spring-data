@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1497613280362
+Build-Jdk: 1.8.0_112
+Built-By: Rosetta
+Bundle-Description: Bundles :: codegen
+Bundle-ManifestVersion: 2
+Bundle-Name: osgi-codegen
+Bundle-SymbolicName: com.jbouguima.osgispringdata.osgi-codegen
+Bundle-Version: 2.0.0.M1
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile;type=!pom;inline=true
+Export-Package: com.mysema.codegen;version="0.6.8";uses:="com.google.com
+ mon.base,com.mysema.codegen.model,javax.lang.model,javax.tools,org.ecli
+ pse.jdt.internal.compiler.impl",com.mysema.codegen.model;version="0.6.8
+ ",com.mysema.codegen.support;version="0.6.8"
+Import-Package: com.google.common.base;version="[18.0,19)",com.google.co
+ mmon.collect;version="[18.0,19)",com.google.common.io;version="[18.0,19
+ )",com.mysema.codegen.model;version="[0.6,1)",com.mysema.codegen.suppor
+ t;version="[0.6,1)",javax.lang.model,javax.tools,org.eclipse.jdt.core.c
+ ompiler,org.eclipse.jdt.internal.compiler,org.eclipse.jdt.internal.comp
+ iler.classfmt,org.eclipse.jdt.internal.compiler.env,org.eclipse.jdt.int
+ ernal.compiler.impl,org.eclipse.jdt.internal.compiler.problem,org.eclip
+ se.jdt.internal.compiler.tool
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-3.3.0.201609221906

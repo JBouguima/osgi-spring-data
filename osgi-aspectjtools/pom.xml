@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>osgi-spring-data</artifactId>
+        <groupId>com.jbouguima.osgispringdata</groupId>
+        <version>2.0.0.M1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>osgi-aspectjtools</artifactId>
+    <packaging>bundle</packaging>
+    <name>Bundles :: aspectjtools</name>
+
+    <properties>
+        <unpack.version>1.5.3</unpack.version>
+        <export.package/>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

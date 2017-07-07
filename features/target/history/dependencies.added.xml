@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+    <feature>
+        <feature>openjpa</feature>
+        <feature>spring</feature>
+        <feature>spring-aspects</feature>
+        <feature>spring-aspects</feature>
+        <feature>spring-data-commons</feature>
+        <feature>spring-data-commons</feature>
+        <feature>spring-instrument</feature>
+        <feature>spring-orm</feature>
+        <feature>spring-oxm</feature>
+        <feature>spring-tx</feature>
+        <feature>spring-web</feature>
+    </feature>
+</features>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="accretio-aspectjtools" />
+        <module name="accretio-aspectjweaver" />
+        <module name="accretio-springdata-jpa" />
+        <module name="accretio-springdata-mongodb" />
+        <module name="accretio-xmlprojector" />
+        <module name="advyteam-aspectjtools" />
+        <module name="advyteam-aspectjweaver" />
+        <module name="advyteam-codegen" />
+        <module name="advyteam-springdata-commons" />
+        <module name="advyteam-springdata-jpa" />
+        <module name="advyteam-xmlprojector" />
+        <module name="features" />
+        <module name="osgi-aspectjtools" />
+        <module name="osgi-aspectjweaver" />
+        <module name="osgi-codegen" />
+        <module name="osgi-springdata-commons" />
+        <module name="osgi-springdata-jpa" />
+        <module name="osgi-springdata-mongodb" />
+        <module name="osgi-xmlprojector" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accretio-aspectjtools" target="1.5" />
+      <module name="accretio-aspectjweaver" target="1.5" />
+      <module name="accretio-codegen" target="1.5" />
+      <module name="accretio-spring-data" target="1.5" />
+      <module name="accretio-springdata-commons" target="1.5" />
+      <module name="accretio-springdata-jpa" target="1.5" />
+      <module name="accretio-springdata-mongodb" target="1.5" />
+      <module name="accretio-xmlprojector" target="1.5" />
+      <module name="advyteam-aspectjtools" target="1.5" />
+      <module name="advyteam-aspectjweaver" target="1.5" />
+      <module name="advyteam-codegen" target="1.5" />
+      <module name="advyteam-spring-data" target="1.5" />
+      <module name="advyteam-springdata-commons" target="1.5" />
+      <module name="advyteam-springdata-jpa" target="1.5" />
+      <module name="advyteam-springdata-mongo" target="1.5" />
+      <module name="advyteam-xmlprojector" target="1.5" />
+      <module name="features" target="1.5" />
+      <module name="osgi-aspectjtools" target="1.5" />
+      <module name="osgi-aspectjweaver" target="1.5" />
+      <module name="osgi-codegen" target="1.5" />
+      <module name="osgi-spring-data" target="1.5" />
+      <module name="osgi-springdata-commons" target="1.5" />
+      <module name="osgi-springdata-jpa" target="1.5" />
+      <module name="osgi-springdata-mongodb" target="1.5" />
+      <module name="osgi-xmlprojector" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

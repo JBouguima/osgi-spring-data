@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="osgi-springdata-mongodb-2.0.0.M1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="com.jbouguima.osgispringdata.osgi-springdata-mongodb" bundleVersion="2.0.0.M1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Bundles :: spring-data-mongodb" />
+          <property key="Bundle-Name" value="osgi-springdata-mongodb" />
+          <property key="Import-Package" value="*" />
+          <property key="Private-Package" value="!*" />
+          <property key="Include-Resource" value="@$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.0.M1/spring-data-mongodb-2.0.0.M1.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.0.M3/spring-tx-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.M3/spring-context-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.0.M3/spring-aop-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.0.M3/spring-beans-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.0.M3/spring-core-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.0.M3/spring-expression-5.0.0.M3.jar,@$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.0.M1/spring-data-commons-2.0.0.M1.jar,@$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.3.0/mongo-java-driver-3.3.0.jar,@$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar,${include.resources}" />
+          <property key="Embed-Dependency" value="*;scope=compile;type=!pom;inline=true" />
+          <property key="-exportcontents" value="*;version=2.0.0.M1" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="osgiBundleFacetType" name="OSGi Bundle">
+      <configuration>
+        <properties />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:2.0.0.M1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.0.M3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.0.0.M1" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />
+  </component>
+</module>

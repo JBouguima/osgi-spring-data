@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="osgi-codegen-2.0.0.M1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="com.jbouguima.osgispringdata.osgi-codegen" bundleVersion="2.0.0.M1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Bundles :: codegen" />
+          <property key="Bundle-Name" value="osgi-codegen" />
+          <property key="Import-Package" value="*" />
+          <property key="Private-Package" value="!*" />
+          <property key="Include-Resource" value="@$MAVEN_REPOSITORY$/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar,@$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar,@$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar,${include.resources}" />
+          <property key="Embed-Dependency" value="*;scope=compile;type=!pom;inline=true" />
+          <property key="-exportcontents" value="*;version=0.6.8" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="osgiBundleFacetType" name="OSGi Bundle">
+      <configuration>
+        <properties />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.mysema.codegen:codegen:0.6.8" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.3.1" level="project" />
+  </component>
+</module>
